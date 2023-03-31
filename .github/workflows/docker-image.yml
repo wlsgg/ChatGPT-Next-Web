@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.8
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           owner: Yidadaa
           base: main
           head: main
